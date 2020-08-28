@@ -30,5 +30,6 @@ function parseURLParams(url) {
 
 document.getElementById("title").innerHTML = JSON.stringify(parseURLParams(location.href));
 </script>
+<a href="https://sokortov.github.io/urlParser?new=true">LINK</a>
 </body>
 </html>
