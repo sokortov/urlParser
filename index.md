@@ -23,6 +23,13 @@ body {
     max-width: 100%;
     word-wrap: break-word;
 }
+button {
+    width: 200px;
+    height: 50px;
+}
+p {
+font-size: 2em;
+}
 </style>
 </head>
 <body bgcolor="#fff">
@@ -35,7 +42,7 @@ body {
  <h1>Put test value to localstorage
 </h1>
 <p><button onclick="putTestValueToLocalStorage()">Put</button></p>
- <p id="putState"></p>
+<p id="putState"></p>
  
  <h1>Get test value from localstorage
 </h1>
