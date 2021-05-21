@@ -79,7 +79,7 @@ document.getElementById("title").innerHTML = JSON.stringify(parseURLParams(locat
 
 
 function lsLocalStorageEnabled(){
-    var test = 'test';
+    var test = 'test1';
     try {
         localStorage.setItem(test, test);
         localStorage.removeItem(test);
