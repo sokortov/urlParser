@@ -26,6 +26,7 @@ body {
 button {
     width: 200px;
     height: 50px;
+    font-size: 1em;
 }
 p {
 font-size: 2em;
@@ -39,18 +40,14 @@ font-size: 2em;
 <h1 id="localStorageTitle">
 </h1>
 
- <h1>Put test value to localstorage
+ <h1>Local Storage test value
 </h1>
 <p><button onclick="putTestValueToLocalStorage()">Put</button></p>
 <p id="putState"></p>
  
- <h1>Get test value from localstorage
-</h1>
 <p><button onclick="getTestValueFromLocalStorage()">Get</button></p>
 <p id="localStorageValue"></p>
 
- <h1>Delete test value to localstorage
-</h1>
 <p><button onclick="deleteTestValueToLocalStorage()">Delete</button></p>
  <p id="deleteState"></p>
  
