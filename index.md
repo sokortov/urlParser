@@ -59,7 +59,7 @@ function lsLocalStorageEnabled(){
     var test = 'test';
     try {
         localStorage.setItem(test, test);
-       // localStorage.removeItem(test);
+        localStorage.removeItem(test);
         return "enabled";
     } catch(e) {
         return "disabled";
