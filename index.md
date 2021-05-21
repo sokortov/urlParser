@@ -1,11 +1,35 @@
+
 <html>
 <head>
 <title>
 Hello there!
 </title>
+
+<style type="text/css">
+ h1 {
+     font-size: 2em;
+     background-color: #fff;
+     padding: 50px;
+     max-width: 100%;
+ }
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    max-width: 100%;
+}
+body {
+    max-width: 100%;
+    word-wrap: break-word;
+}
+</style>
 </head>
 <body bgcolor="#fff">
 <h1 id="title">
+</h1>
+
+<h1 id="localStorageTitle">
 </h1>
 <script>
 function parseURLParams(url) {
@@ -29,7 +53,26 @@ function parseURLParams(url) {
 }
 
 document.getElementById("title").innerHTML = JSON.stringify(parseURLParams(location.href));
+
+
+function lsLocalStorageEnabled(){
+    var test = 'test';
+    try {
+        localStorage.setItem(test, test);
+        localStorage.removeItem(test);
+        return "enabled";
+    } catch(e) {
+        return "disabled";
+    }
+}
+
+document.getElementById("localStorageTitle").innerHTML = ("Local storage " + lsLocalStorageEnabled());
 </script>
 <a href="https://sokortov.github.io/urlParser?new=true">LINK</a>
+
+
+
+
+
 </body>
 </html>
