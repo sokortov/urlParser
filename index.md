@@ -31,6 +31,25 @@ body {
 
 <h1 id="localStorageTitle">
 </h1>
+
+ <h1>Put test value to localstorage
+</h1>
+<p><button onclick="putTestValueToLocalStorage()">Put</button></p>
+ <p id="putState"></p>
+ 
+ <h1>Get test value from localstorage
+</h1>
+<p><button onclick="getTestValueFromLocalStorage()">Get</button></p>
+<p id="localStorageValue"></p>
+
+ <h1>Delete test value to localstorage
+</h1>
+<p><button onclick="deleteTestValueToLocalStorage()">Delete</button></p>
+ <p id="deleteState"></p>
+ 
+ <h1><a href="https://sokortov.github.io/urlParser?new=true">LINK</a></h1>
+
+
 <script>
 function parseURLParams(url) {
     var queryStart = url.indexOf("?") + 1,
@@ -67,12 +86,27 @@ function lsLocalStorageEnabled(){
 }
 
 document.getElementById("localStorageTitle").innerHTML = ("Local storage " + lsLocalStorageEnabled());
+                                 
+function getTestValueFromLocalStorage() {
+var val = localStorage.getItem('test');
+if (val) {
+document.getElementById("localStorageValue").innerHTML = val;
+} else {
+document.getElementById("localStorageValue").innerHTML = "error";
+}
+};
+
+function putTestValueToLocalStorage(){
+var test = 'test';
+localStorage.setItem(test, test);
+document.getElementById("putState").innerHTML = "done";
+};
+
+function deleteTestValueToLocalStorage(){
+var test = 'test';
+localStorage.removeItem(test, test);
+document.getElementById("deleteState").innerHTML = "done";
+};
 </script>
-<a href="https://sokortov.github.io/urlParser?new=true">LINK</a>
-
-
-
-
-
 </body>
 </html>
