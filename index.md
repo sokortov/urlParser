@@ -55,9 +55,9 @@ font-size: 2em;
 
  <h1><a href="hyprr://">hyprr</a></h1>
  <h1><a href="hyprr://discover/posts">discover/posts</a></h1>
- <h1><a href="hyprr://">hyprr</a></h1>
- <h1><a href="hyprr://">hyprr</a></h1>
- <h1><a href="hyprr://">hyprr</a></h1>
+ <h1><a href="hyprr://hypetv/">hypetv/</a></h1>
+ <h1><a href="hyprr://messaging?channel=bfca80d5-65cb-4121-93d8-208bc5c1d0ad">messaging?channel=bfca80d5-65cb-4121-93d8-208bc5c1d0ad</a></h1>
+ <h1><a href="hyprr://profile/ivan_100">profile/ivan_100</a></h1>
  <h1><a href="hyprr://">hyprr</a></h1>
  <h1><a href="hyprr://">hyprr</a></h1>
  <h1><a href="hyprr://">hyprr</a></h1>
