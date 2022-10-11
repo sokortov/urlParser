@@ -60,7 +60,7 @@ font-size: 2em;
  <h1><a href="hyprr://profile/ivan_100">profile/ivan_100</a></h1>
  <h1><a href="hyprr://discover/hypetv">discover/hypetv</a></h1>
  <h1><a href="hyprr://discover/nft">discover/nft</a></h1>
- <h1><a href="hyprr://">hyprr</a></h1>
+ <h1><a href="dapp://www.google.com/">metamask</a></h1>
  <h1><a href="hyprr://">hyprr</a></h1>
  <h1><a href="hyprr://">hyprr</a></h1>
  <h1><a href="hyprr://">hyprr</a></h1>
