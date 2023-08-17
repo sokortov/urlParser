@@ -64,6 +64,7 @@ font-size: 2em;
  <h1><a href="hyprr://">hyprr</a></h1>
  <h1><a href="hyprr://">hyprr</a></h1>
  <h1><a href="hyprr://">hyprr</a></h1>
+ <h1><a href="googlegmail://">GMAIL</a></h1>
 
 <script>
 function parseURLParams(url) {
