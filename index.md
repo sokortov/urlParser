@@ -124,8 +124,24 @@ localStorage.removeItem(test, test);
 document.getElementById("deleteState").innerHTML = "done";
 };
 </script>
+
+<script
+  async
+  src="https://i10x.ai/widget.js"
+  data-position="bottom-right"
+  data-chatbot-id="1f08faec-69f6-6312-8f3d-db6d758a89e3"
+></script>
+
+<iframe
+  src="https://i10x.ai/embed/chatbot/1f08faec-69f6-6312-8f3d-db6d758a89e3"
+  width="400"
+  height="500"
+  frameborder="0"
+></iframe>
+
 </body>
 </html>
+
 
 
 
